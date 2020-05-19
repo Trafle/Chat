@@ -1,0 +1,46 @@
+{
+  "name": "messenger",
+  "version": "1.0.0",
+  "description": "a good example of architecture of a messenger",
+  "main": "server.js",
+  "engines": {
+    "node": "8.10.0",
+    "npm": "3.5.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "browserify /home/igor/Desktop/programs/javascript/Messenger/front/chat/chat.js -o /home/igor/Desktop/programs/javascript/Messenger/front/chat/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trafle/Messenger.git"
+  },
+  "author": "Trafle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Trafle/Messenger/issues"
+  },
+  "homepage": "https://github.com/Trafle/Messenger#readme",
+  "dependencies": {
+    "baudio": "^2.1.2",
+    "body-parser": "^1.19.0",
+    "cookies": "^0.7.3",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1",
+    "websocket": "^1.0.28"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "babelify": "^10.0.0",
+    "browserify": "^16.2.3",
+    "eslint": "^5.16.0",
+    "eslint-config-google": "^0.13.0",
+    "mongodb": "^3.2.6"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  }
+}
