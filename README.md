@@ -1,5 +1,7 @@
 # Messenger
 
-a good example of architecture for a messenger
+#H1 Welcome!
+
+This is a project I made for 'Основи Web-програмування'. It features a great architecture which You can see down below.
 
 ![](/images/Messenger3.jpg)
