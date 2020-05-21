@@ -1,6 +1,6 @@
-# Messenger
+# Chat
 
-#H1 Welcome!
+## Welcome!
 
 This is a project I made for 'Основи Web-програмування'. It features a great architecture which You can see down below.
 
