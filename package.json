@@ -26,7 +26,7 @@
     "baudio": "^2.1.2",
     "body-parser": "^1.19.0",
     "cookies": "^0.7.3",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "nodemon": "^1.19.1",
     "websocket": "^1.0.28"
   },
